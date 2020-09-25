@@ -23,7 +23,7 @@ class GetList extends Component{
 
     // perfect time to execute async calls
     componentDidMount(){
-        axios.get("https://jsonplaceholder.typicode.com/posts1")
+        axios.get("")
         .then( response => {
             console.log(response)
 
